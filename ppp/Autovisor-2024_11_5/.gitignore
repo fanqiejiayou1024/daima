@@ -1,0 +1,16 @@
+Autovisor.zip
+Releases/
+build/
+dist/
+Res/__init__.py
+.idea/
+__pycache__/
+.vscode/
+.venv/
+captcha/
+logs/
+.obsidian/
+test_config.ini
+setup.py
+LICENSE
+*.spec
