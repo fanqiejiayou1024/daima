@@ -1,0 +1,246 @@
+/*可以在这里添加你自己的css*/
+
+
+.sde-ctrl {
+    display: inline;
+    background-color: #F0F8FF;
+  }
+  
+  .sde-label {
+    background-color: white;
+  }
+  
+  .sde-ctrl>.sde-value,
+  .sde-ctrl>.sde-revise>.sde-value-revise {
+    display: inline;
+  }
+  
+  .sde-ctrl:after {
+    color: red;
+    content: attr(sde-right);
+    font-weight: bold;
+    position: relative;
+    bottom: -2px;
+  }
+  
+  .sde-ctrl:focus,
+  .sde-ctrl>.sde-value:focus,
+  .sde-ctrl>.sde-revise>.sde-value-revise:focus {
+    background-color: #add8e6;
+  }
+  
+  .sde-ctrl>.sde-value:before,
+  .sde-ctrl>.sde-revise>.sde-value-revise:before {
+    color: #0000ff;
+    padding-right: 3px;
+    content: attr(sde-left);
+  }
+  
+  .sde-ctrl>.sde-value:after,
+  .sde-ctrl>.sde-revise>.sde-value-revise:after {
+    color: #0000ff;
+    padding-left: 3px;
+    content: attr(sde-right);
+  }
+  
+  .sde-ctrl>.sde-value>.sde-val-item {
+    box-sizing: border-box;
+    border-color: transparent;
+    margin: 2px;
+    background-color: rgb(208, 216, 223);
+    padding: 0 3px;
+    border-radius: 4px;
+  }
+  
+  .sde-auxiliary-root {
+    display: none;
+  }
+  
+  .sde-auxiliary-root>.sde-auxiliary-bg {
+    z-index: 1;
+    position: fixed;
+    background-color: #000;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .sde-auxiliary-root>.sde-auxiliary-root-dom {
+    position: absolute;
+    border: 1px solid #ccc;
+    min-height: 10px;
+    background-color: #fefefe;
+    overflow-y: auto;
+    z-index: 2;
+  }
+  
+  .sde-auxiliary-select-ul {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .sde-auxiliary-select-ul .selected:after {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAgVBMVEX///8AnhIAnBIAmhEAoBMApxQAcg0AIwQAAAAAqRUAqhUAphQApxQAnhIAnBIAnxMAoBMAmBEAmBEAmREAjg4Ajw8AhgwAhQwAZAkAAAAAPwQAagYAOgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABj7nRP6mA15EYd3y7///8f1UZbAAAAJnRSTlMAAAAAAAAAAAAzZkjMZjNIzMx7SMxISMxIBlrMYyARBQMSGhcQCRTuOuYAAAABYktHRACIBR1IAAAAB3RJTUUH2wUSFAIAr8Q/BgAAAE9JREFUGNNjYKASYGRiZmHl5EIV4ObhQQjw8jHzC6gJIAQEBYUE1QWFEQIiGkAoyoYQEBPXFJdg50AISEpJy8jKySMEFBSVlFVUFajlCwYA+DcEQfs7xCQAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMDQtMTBUMDU6Mjk6MzYrMDg6MDA8SYRAAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDExLTA1LTE4VDIwOjAyOjAwKzA4OjAw9hxmegAAAEN0RVh0c29mdHdhcmUAL3Vzci9sb2NhbC9pbWFnZW1hZ2ljay9zaGFyZS9kb2MvSW1hZ2VNYWdpY2stNy8vaW5kZXguaHRtbL21eQoAAAAYdEVYdFRodW1iOjpEb2N1bWVudDo6UGFnZXMAMaf/uy8AAAAXdEVYdFRodW1iOjpJbWFnZTo6SGVpZ2h0ADE2Ha9ebwAAABZ0RVh0VGh1bWI6OkltYWdlOjpXaWR0aAAxNuUAnuIAAAAZdEVYdFRodW1iOjpNaW1ldHlwZQBpbWFnZS9wbmc/slZOAAAAF3RFWHRUaHVtYjo6TVRpbWUAMTMwNTcyMDEyME6RfuYAAAAQdEVYdFRodW1iOjpTaXplADMyMUKhri7XAAAAWXRFWHRUaHVtYjo6VVJJAGZpbGU6Ly8vaG9tZS93d3dyb290L3NpdGUvd3d3LmVhc3lpY29uLm5ldC9jZG4taW1nLmVhc3lpY29uLmNuL3NyYy8yMC8yMDA3LnBuZ9a2SfkAAAAASUVORK5CYII=);
+    font-size: 10px;
+    color: #409eff;
+    padding-top: 5px;
+    right: 10px;
+    position: absolute;
+  }
+  
+  .sde-auxiliary-select-li {
+    padding: 0 10px;
+    cursor: pointer;
+    padding-right: 30px;
+    white-space: nowrap;
+  }
+  
+  .hover {
+    background-color: #c1c1c1!important;
+  }
+  
+  .selected {
+    font-weight: 700;
+    color: #409eff;
+    background-color: #f5f7fa;
+  }
+  
+  .sde-select {
+    cursor: pointer;
+  }
+  
+  .sde-section,
+  .sde-section>.sde-value {
+    display: block;
+    background-color: transparent;
+  }
+  
+  .sde-section:after,
+  .sde-section:before,
+  .sde-section>.sde-value:after,
+  .sde-section>.sde-value:before {
+    content: none;
+  }
+  
+  .sde-warning {
+    background-color: yellow;
+    color: red;
+  }
+  
+  .tb-solid td,
+  .tb-solid th {
+    border-left: 1px solid black !important;
+    border-top: 1px solid black !important;
+  }
+  
+  .tb-solid tr td {
+    border-right: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+  }
+  
+  .tb-dotted td,
+  .tb-dotted th {
+    border-left: 1px dotted black !important;
+    border-top: 1px dotted black !important;
+  }
+  
+  .tb-dotted tr td {
+    border-right: 1px dotted black !important;
+    border-bottom: 1px dotted black !important;
+  }
+  
+  .tb-hide td,
+  .tb-hide th {
+    border-left: none !important;
+    border-top: none !important;
+  }
+  
+  .tb-hide tr td {
+    border-right: none !important;
+    border-bottom: none !important;
+  }
+  
+  .sde-assistant-popup {
+    display: none;
+    position: fixed;
+    z-index: 2;
+  }
+  
+  .sde-assistant-popup .assistant-popup-body {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    width: 150px;
+    opacity: 0.7;
+    padding: 5px 0;
+  }
+  
+  
+  /******* start 批注 ********/
+  
+  .sde-revise {}
+  
+  .sde-revise>.sde-revise-del {
+    display: none;
+  }
+  
+  .sde-revise-show>.sde-revise-del {
+    display: inline;
+    text-decoration: line-through!important;
+    text-decoration-color: red!important;
+    text-decoration-style: double!important;
+  }
+  
+  .sde-revise-show>.sde-revise-add {
+    display: inline;
+    text-decoration: underline!important;
+    text-decoration-color: blue!important;
+    text-decoration-style: double!important;
+  }
+  
+  .sde-revise-show>.revise-prompt {
+    position: absolute;
+    background: black;
+    z-index: 1;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    font-size: 11px;
+    display: block;
+    padding: 5px;
+    margin-top: -3px;
+    visibility: visible;
+    opacity: .8;
+    color: #999;
+  }
+  
+  .sde-revise-show>.revise-prompt>.revise-prompt-tip {
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 5px solid black;
+    opacity: .8;
+    position: absolute;
+    display: none;
+  }
+  
+  
+  /******* end 批注 ********/
+
+  /* 打印 */
+  @media print{
+    table{width: 100%;}
+  }
