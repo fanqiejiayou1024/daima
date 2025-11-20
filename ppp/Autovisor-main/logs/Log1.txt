@@ -1,0 +1,87 @@
+[15:01:06] [INFO] 程序启动中...
+[15:01:06] [INFO] 开始下载依赖库...
+[15:01:06] [INFO] numpy-1.26.4 已安装！
+[15:01:06] [INFO] opencv-python-4.10.0.82 已安装！
+[15:01:06] [INFO] 所有依赖库下载完成!
+[15:01:07] [INFO] 正在启动edge浏览器...
+[15:01:08] edge浏览器启动完成.
+[15:01:08] stealth.js注入完成.
+[15:01:08] 窗口大小设置完成.
+[15:01:08] [INFO] 正在等待登录完成...
+[15:01:11] [INFO] 第1次尝试过滑块验证...
+[15:01:11] [WARN] 检测到安全验证,请手动完成验证...
+[15:01:19] [INFO] 滑块验证已成功通过.
+[15:01:19] [INFO] 安全验证已完成.
+[15:01:19] [INFO] 正在加载播放页...
+[15:01:31] Exec JS failed: document.getElementsByClassName("ai-show-icon ai-icon-appear")[0].remove(); Selector:.ai-show-icon.ai-icon-appear Error:TimeoutError('Page.wait_for_selector: Timeout 1500ms exceeded.\nCall log:\n  - waiting for locator(".ai-show-icon.ai-icon-appear") to be visible\n')
+[15:01:31] Traceback (most recent call last):
+  File "E:\daima\ppp\Autovisor-main\modules\utils.py", line 15, in evaluate_js
+    await page.wait_for_selector(wait_selector, timeout=timeout)
+  File "E:\yunxingtaojian\Python\py13\Lib\site-packages\playwright\async_api\_generated.py", line 8162, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+        selector=selector, timeout=timeout, state=state, strict=strict
+    )
+  File "E:\yunxingtaojian\Python\py13\Lib\site-packages\playwright\_impl\_page.py", line 424, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yunxingtaojian\Python\py13\Lib\site-packages\playwright\_impl\_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "E:\yunxingtaojian\Python\py13\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "E:\yunxingtaojian\Python\py13\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 1500ms exceeded.
+Call log:
+  - waiting for locator(".ai-show-icon.ai-icon-appear") to be visible
+
+[15:01:31] Exec JS failed: document.querySelector(".exploreTip").remove(); Selector:1500 Error:Error('Page.wait_for_selector: selector: expected string, got number')
+[15:01:31] Traceback (most recent call last):
+  File "E:\daima\ppp\Autovisor-main\modules\utils.py", line 15, in evaluate_js
+    await page.wait_for_selector(wait_selector, timeout=timeout)
+  File "E:\yunxingtaojian\Python\py13\Lib\site-packages\playwright\async_api\_generated.py", line 8162, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+        selector=selector, timeout=timeout, state=state, strict=strict
+    )
+  File "E:\yunxingtaojian\Python\py13\Lib\site-packages\playwright\_impl\_page.py", line 424, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yunxingtaojian\Python\py13\Lib\site-packages\playwright\_impl\_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "E:\yunxingtaojian\Python\py13\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "E:\yunxingtaojian\Python\py13\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.wait_for_selector: selector: expected string, got number
+[15:01:31] [INFO] 页面优化完成!
+[15:01:31] [INFO] 当前课程:<<解码国家安全>>
+[15:01:31] [INFO] 检测到视频暂停,正在尝试播放.
+[15:01:32] Get to-learn class: 75
+[15:01:32] Get to-review class: 75
+[15:01:32] 视频已恢复播放.
+[15:01:33] [INFO] 检测到视频暂停,正在尝试播放.
+[15:01:33] 视频已恢复播放.
+[15:01:33] [INFO] 正在学习:1.1.1、利益的概念
+[15:01:34] [ERROR] AttributeError("'float' object has no attribute 'split'")
+[15:01:34] Traceback (most recent call last):
+  File "E:\daima\ppp\Autovisor-main\Autovisor.py", line 196, in main
+    await working_loop(page, is_new_version=is_new_version)
+  File "E:\daima\ppp\Autovisor-main\Autovisor.py", line 131, in working_loop
+    await review_loop(page, start_time)
+  File "E:\daima\ppp\Autovisor-main\Autovisor.py", line 98, in review_loop
+    show_course_progress(desc="完成进度:", cur_time=time_period, limit_time=limit_time)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\daima\ppp\Autovisor-main\modules\progress.py", line 49, in show_course_progress
+    percent = int(cur_time.split("%")[0]) + 1  # Handles a 1% rendering error
+                  ^^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'split'
+[15:01:34] 浏览器已关闭,视频调节模块已下线.
+[15:01:34] 浏览器已关闭,答题模块已下线.
+[15:01:34] 浏览器已关闭,视频播放模块已下线.

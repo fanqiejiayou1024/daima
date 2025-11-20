@@ -1,0 +1,38 @@
+[15:01:50] [INFO] 程序启动中...
+[15:01:50] [INFO] 开始下载依赖库...
+[15:01:50] [INFO] numpy-1.26.4 已安装！
+[15:01:50] [INFO] opencv-python-4.10.0.82 已安装！
+[15:01:50] [INFO] 所有依赖库下载完成!
+[15:01:51] [INFO] 正在启动edge浏览器...
+[15:01:52] edge浏览器启动完成.
+[15:01:52] stealth.js注入完成.
+[15:01:52] 窗口大小设置完成.
+[15:01:52] [INFO] 正在等待登录完成...
+[15:02:21] [ERROR] TargetClosedError('Page.goto: Target page, context or browser has been closed\nCall log:\n  - navigating to "https://passport.zhihuishu.com/login", waiting until "load"\n')
+[15:02:21] Traceback (most recent call last):
+  File "E:\daima\ppp\Autovisor-main\Autovisor.py", line 175, in main
+    await auto_login(config, page, modules)
+  File "E:\daima\ppp\Autovisor-main\Autovisor.py", line 24, in auto_login
+    await page.goto(config.login_url)
+  File "E:\yunxingtaojian\Python\py13\Lib\site-packages\playwright\async_api\_generated.py", line 8973, in goto
+    await self._impl_obj.goto(
+        url=url, timeout=timeout, waitUntil=wait_until, referer=referer
+    )
+  File "E:\yunxingtaojian\Python\py13\Lib\site-packages\playwright\_impl\_page.py", line 551, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\yunxingtaojian\Python\py13\Lib\site-packages\playwright\_impl\_frame.py", line 145, in goto
+    await self._channel.send("goto", locals_to_params(locals()))
+  File "E:\yunxingtaojian\Python\py13\Lib\site-packages\playwright\_impl\_connection.py", line 61, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+    )
+    ^
+  File "E:\yunxingtaojian\Python\py13\Lib\site-packages\playwright\_impl\_connection.py", line 528, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://passport.zhihuishu.com/login", waiting until "load"
+
+[15:02:21] [ERROR] 浏览器被关闭,程序退出.
