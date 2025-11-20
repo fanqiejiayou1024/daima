@@ -1,0 +1,16 @@
+[
+  {
+    "tenant_name": "云南林业职业技术学院",
+    "account": "24210253214",
+    "password": "24210253214",
+    "study": true,
+    "user": {
+      "userId": "",
+      "token": ""
+    },
+    "study_time": 15,
+    "restudy_time": 0,
+    "exam": true,
+    "exam_use_time": 250
+  }
+]

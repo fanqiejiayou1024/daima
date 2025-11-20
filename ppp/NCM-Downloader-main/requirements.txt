@@ -1,0 +1,4 @@
+jsonpath
+mutagen
+pycryptodome
+Requests

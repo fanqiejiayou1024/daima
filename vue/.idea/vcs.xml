@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vue-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vue-demo/vue" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vue-zy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vue-zy-2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vue-zy-2/vue" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vue-zy/vue" vcs="Git" />
+  </component>
+</project>

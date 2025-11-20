@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="home-container">
+ <!-- 推荐商品标题 -->
+  <view class="recommend-title">
+    <text>推荐商品</text>
+  </view>
+  <!-- 推荐商品列表（使用Vant卡片组件） -->
+  <view class="goods-list">
+    <van-card wx:for="{{goodsList}}" wx:key="id" price="{{item.price}}" title="{{item.title}}" thumb="{{item.thumb}}" class="goods-item">
+      <van-button round type="primary" size="small" bindtap="addToCart">添加购物车</van-button>
+    </van-card>
+  </view>
+</view>

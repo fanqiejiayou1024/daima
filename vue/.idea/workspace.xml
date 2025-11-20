@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54f8cf0b-71aa-4a05-b4e9-bb2f8526f2d7" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/vue-demo/js补充/dome1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-demo/src/assets/tou.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-demo/src/assets/叽兔灰兔子QQ表情包2_爱给网_aigei_com.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-zy/src/assets/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-zy/src/assets/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-zy/src/assets/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-zy/src/assets/s4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-zy/src/components/qiehuan.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-zy/src/components/shijuj.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-zy/src/components/zuoye.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-demo" beforeDir="false" afterPath="$PROJECT_DIR$/vue-demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-demo/src/components/demo01.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-demo/src/components/demo01.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-demo/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-demo/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-zy" beforeDir="false" afterPath="$PROJECT_DIR$/vue-zy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-zy-2" beforeDir="false" afterPath="$PROJECT_DIR$/vue-zy-2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-zy-2/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-zy-2/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-zy/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-zy/src/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2lnI3x3mrBfAoomN8WdHPZECqoq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "E:\\ide\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="54f8cf0b-71aa-4a05-b4e9-bb2f8526f2d7" name="更改" comment="" />
+      <created>1725809225245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725809225245</updated>
+      <workItem from="1725809231468" duration="1357000" />
+      <workItem from="1727696949304" duration="12000" />
+      <workItem from="1733834439886" duration="61000" />
+      <workItem from="1736264749510" duration="69000" />
+      <workItem from="1736264963488" duration="1081000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

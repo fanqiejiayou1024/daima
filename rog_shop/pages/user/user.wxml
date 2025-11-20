@@ -1,0 +1,35 @@
+<!--pages/user/user.wxml-->
+<view class="user-page">
+  <!-- 1. 用户信息区 -->
+  <view class="user-info-container" bindtap="handleEditUserInfo">
+    <image src="/rog-img/OIP-C.webp" mode="widthFix" class="user-avatar" />
+    <!-- 用户昵称与编辑图标 -->
+    <view class="user-info-right">
+      <text class="user-nickname">玩家国度服务</text>
+      <image src="/images/user-edit.png" mode="widthFix" class="edit-icon" />
+    </view>
+  </view>
+  <!-- 2. 功能入口区（网格布局） -->
+  <view class="function-grid">
+    <view class="grid-item" bindtap="goToAddressList">
+      <image src="/img/dai.png" mode="widthFix" class="grid-icon" />
+      <text class="grid-text">待付款</text>
+    </view>
+    <view class="grid-item" bindtap="goToAddressList">
+      <image src="/img/shou.png" mode="widthFix" class="grid-icon" />
+      <text class="grid-text">待收货</text>
+
+    </view>
+    <view class="grid-item" bindtap="goToAddressList">
+      <image src="/img/shouhpou.png" mode="widthFix" class="grid-icon" />
+      <text class="grid-text">退换/售后</text>
+
+    </view>
+    <view class="grid-item" bindtap="goToAddressList">
+      <image src="/img/quan.png" mode="widthFix" class="grid-icon" />
+      <text class="grid-text">全部订单</text>
+
+    </view>
+  </view>
+
+</view>
