@@ -1,0 +1,4 @@
+<resources>
+    <string name="service_description">启用此服务以实现自动点击功能</string>
+    <string name="AutoClicker">自动点击器</string>
+</resources>
